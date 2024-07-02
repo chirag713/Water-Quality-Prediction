@@ -199,7 +199,7 @@ export default function Home() {
             <h3 className="text-xl font-bold mb-4">
               Prediction: {response.drinkable ? "Water is Drinkable" : "Water is not Drinkable"}
             </h3>
-            <pre className="bg-gray-100 rounded">Contaminant Level: {response.contaminantLevel}%</pre>
+            <pre className="bg-gray-100 rounded">contamination Level: {response.contaminantLevel}%</pre>
           </div>
         )}
         {error && <div className="text-red-500 mt-4">{error}</div>}
