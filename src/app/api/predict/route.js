@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { NextResponse } from 'next/server';
 
-const API_KEY = 'fh3c-iGWuo91Ibmbz_oYy4orKtfKS45UXfFqY9zWI2D2';
+const API_KEY = 'Y20GSzqSee0FtrKo34MlM5umSJvSeGmah1VGaT8PF1fW';
 
 const getToken = async () => {
     try {
@@ -48,7 +48,7 @@ export async function POST(request) {
 
     try {
         const responseScoring = await axios.post(
-            'https://us-south.ml.cloud.ibm.com/ml/v4/deployments/c9279248-db7c-41d9-945f-536771b01f5e/predictions?version=2021-05-01',
+            'https://us-south.ml.cloud.ibm.com/ml/v4/deployments/1fb5754c-dcf3-4b64-aca0-ea1a6ae57a22/predictions?version=2021-05-0',
             payloadScoring,
             {
                 headers: {
